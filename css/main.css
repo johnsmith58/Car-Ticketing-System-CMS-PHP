@@ -1,0 +1,36 @@
+/* indexx */
+form {
+  margin: auto;
+
+}
+body {
+  background-color: teal;
+}
+#page {
+  margin: auto;
+}
+
+.col {
+  background: rgb(241, 236, 236);
+  border: 1px solid rgb(201, 190, 188);
+  border-radius: 10px;
+}
+/* book users orders */
+.book_users_orders {
+  background-color: white;
+  width: 400px;
+  padding: 10px 10px 20px 120px;
+  margin-left: 400px;
+  margin-top: 50px;
+  border: 2px solid silver;
+}
+#book_users_order_body {
+  background-color: teal;
+}
+@media (max-width: 320px) {
+  .book_users_orders {
+    margin-left: 10px;
+    width: 250px;
+    padding-left: 20px;
+  }
+}
